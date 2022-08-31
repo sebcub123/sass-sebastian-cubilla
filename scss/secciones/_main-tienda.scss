@@ -1,0 +1,40 @@
+.main-tienda img {
+    width: 100%;
+}
+
+
+.contenedorProductos {
+    border: #f8077f 2px solid;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container img {
+    width: 300px;
+}
+
+.titulo-store{
+    font-size: 20px;
+}
+
+.btnComprar{
+    background-color: white;
+    border-radius: 10%;
+    width: 100px;
+    
+}
+
+.precio-store{
+    font-size: 18px;
+}

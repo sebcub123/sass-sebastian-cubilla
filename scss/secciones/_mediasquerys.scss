@@ -1,0 +1,91 @@
+@media (max-width: 1024px){
+    .main-index{
+        height: 80vh;
+    }
+    .carouselExampleIndicators{
+        margin-top: 2px;
+        display: flex;
+        align-content: center;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+    .header{
+        display: inline-block !important;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nav-form{
+        justify-content: start !important;
+    }
+    .main-index{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 450px) {
+
+    header{
+        display: inline-block;
+    }
+
+    .navbar-brand img{
+        width: 180px;
+    }
+
+    .nav-form{
+        justify-content: start !important;
+    }
+
+    .footer li {
+        margin: 3px;
+    }
+
+    .contenedorProductos img {
+        width: 200px;
+    }
+
+    .main-sucursales {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .map {
+        width: 315px;
+        text-align: center;
+    }
+
+    .main-contacto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contNombre input {
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        align-content: center;
+    }
+
+    .contEmail input {
+        width: 100px;
+        height: auto;
+        margin: 20px;
+    }
+
+    .contComentario textarea {
+        width: 100px;
+        height: auto;
+        margin: 20px;
+    }
+
+    .contEnviar input {
+        width: 100px;
+        height: auto;
+        margin: 20px;
+    }
+}
