@@ -1,5 +1,12 @@
-main{
-    .carousel-indicators{
+main {
+    .carousel {
         transition: all;
+    }
+
+    .img-oculta {
+
+        img {
+            display: none;
+        }
     }
 }

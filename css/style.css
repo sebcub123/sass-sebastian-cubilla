@@ -12,7 +12,6 @@
       color: #f8077f !important;
       font-weight: bolder; }
   .header img {
-    width: 250px;
     padding: 10px;
     justify-content: center; }
   .header .btn {
@@ -30,8 +29,11 @@
     .header nav .nav-item {
       padding: 10px; }
 
-main .carousel-indicators {
+main .carousel {
   transition: all; }
+
+main .img-oculta img {
+  display: none; }
 
 .main-nosotros img {
   width: 100%;
@@ -173,12 +175,19 @@ main .carousel-indicators {
 @media (max-width: 650px) {
   .header {
     display: inline-block !important; }
+  main {
+    height: 80%; }
+    main .carousel {
+      display: none !important; }
+    main .img-oculta img {
+      display: flex !important;
+      width: 100%; }
   .grid-container {
     grid-template-columns: repeat(1, 1fr); }
   .nav-form {
     justify-content: start !important; }
   .main-index {
-    height: 80vh; } }
+    height: 80%; } }
 
 @media (max-width: 450px) {
   header {
@@ -187,15 +196,13 @@ main .carousel-indicators {
     width: 180px; }
   .nav-form {
     justify-content: start !important; }
-  .footer li {
-    margin: 3px; }
   .contenedorProductos img {
     width: 200px; }
   .main-sucursales {
     display: block;
     margin-top: 20px; }
   .map {
-    width: 315px;
+    width: 100%;
     text-align: center; }
   .main-contacto {
     display: flex;
@@ -216,4 +223,6 @@ main .carousel-indicators {
   .contEnviar input {
     width: 100px;
     height: auto;
-    margin: 20px; } }
+    margin: 20px; }
+  .footer li {
+    margin: 3px; } }
