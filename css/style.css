@@ -29,10 +29,13 @@
     .header nav .nav-item {
       padding: 10px; }
 
-main .carousel {
+.main-index h1 {
+  display: none; }
+
+.main-index .carousel {
   transition: all; }
 
-main .img-oculta img {
+.main-index .img-oculta img {
   display: none; }
 
 .main-nosotros img {
@@ -53,6 +56,9 @@ main .img-oculta img {
 
 .main-nosotros p {
   font-size: 24px; }
+
+.main-tienda h1 {
+  display: none; }
 
 .main-tienda img {
   width: 100%; }
@@ -110,6 +116,8 @@ main .img-oculta img {
   align-items: center;
   min-height: 80vh;
   background-color: #f756a9a4; }
+  .main-contacto h1 {
+    display: none; }
 
 .contNombre input {
   width: 300px;
