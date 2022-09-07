@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import './variables/extend';
+
 @import './secciones/header';
 
 @import './secciones/main-index';
